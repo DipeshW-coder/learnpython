@@ -72,6 +72,14 @@ else:
 for i in range(23):
     print("Dipesh is great")
 
+# yaha par 1 ke baad 12 daala toh yeh for loop tabtak chalega jabtak 1 se 11 takk print nahi hota
+for k in range(1, 12):
+    print(k)
+
+# yaha par 1 , 12 ke baad jo 2 hai how it works is, it will print "1 3 5 7 9 11" it will give the result of leaving every 2 numbers 
+for j in range(1, 12, 2):
+    print(j)
+
 # WHILE LOOP
 # while loop jo hai woh true ke basis pe chalta hai jabtak woh value true hai tabtak woh print karta hai
 
