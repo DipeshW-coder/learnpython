@@ -139,4 +139,13 @@ print(student["is_clever"]) # yeh student ke is_clever ko print
 # .get
 print(student.get("age")) # yeh student ke name ko print krega yaha par .get ko ko isliye use kiya hai kyuki agar age nahi hota toh error aata but abhi .get hai toh error nahi ayega agar age nhi bhi ho toh woh none print karega
 
+# This is creating a file in python compiler 
+
+with open("notes.txt", "w") as file:  # "w" means write mode 
+    file.write("Hello Dipesh\n This is my first file made in python compiler.")
+
+# now reading the file
+with open("notes.txt", "r") as file: # "r" means read mode
+    content = file.read()
+    print(content) # This will print the content of the file 
 
