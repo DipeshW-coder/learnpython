@@ -149,3 +149,13 @@ with open("notes.txt", "r") as file: # "r" means read mode
     content = file.read()
     print(content) # This will print the content of the file 
 
+
+# oop - object oriented programming 
+'''
+objects : like car , student, dog etc
+Attributes (data) : colour of the car , model of the car, car brand etc 
+Methods (actions) : honking of cars, moving the car , stopping the car etc
+So you group the data and functions togather and call it a class 
+''' 
+
+
