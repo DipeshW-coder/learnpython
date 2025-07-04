@@ -158,4 +158,34 @@ Methods (actions) : honking of cars, moving the car , stopping the car etc
 So you group the data and functions togather and call it a class 
 ''' 
 
+class Car:       # this is class and we have defined a class named Car
+    def _init_ (self, brand, year):  # "def" is basically how we define a function. _init_ function is like setting up a object , "self" means the 'this object itself'
+        self.brand = brand # attribute Take the brand the user gave me and save it inside this car object under the name brand.
+        self.year = year  # attribute save the year inside this car object.
 
+        def display_info(self):
+            print(f"This car is a {self.brand} from {self.year}.") # with help of "f" we can print the variables inside the string without using + sign, “Inside this string, if I find curly braces {}, I should replace them with the value of the variables inside.”
+
+# creatw an object 
+my_car1 = Car("Lamborghini", 2025)
+my_car2 = Car("BMW", 2023)
+my_car3 = Car("Aston Martin", 2024)
+# we can create this hower we want 
+
+# call the method
+my_car1.display_info()
+my_car2.display_info()
+my_car3.display_info()
+
+# har car ke liye aise karna padega my_car1 my_car2 my_car3 etc
+
+'''
+class → blueprint for objects.
+
+__init__ → sets up data when you create an object.
+
+self → means "this object itself."
+
+Method → action that uses the objects data.
+
+'''
